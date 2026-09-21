@@ -1,0 +1,38 @@
+---
+title: "Talks & Presentations"
+---
+
+## 2026
+
+- **A Quantitative Analysis of Biblical Hebrew's Rhotic.** Invited lecture, European Hebrew Journal International Scholarly Conference.
+- **A Phylogenetic Perspective on the Syntax-Semantics Interface.** Paper presented at the 16th International Conference of the Association for Linguistic Typology.
+- **Word Family Evolution in Semitic Languages.** Talk at *qc-leste: Quantitative Cross-Linguistic Explorations of Space, Time, and Evolution*.
+
+## 2025
+
+- **Writing does not impact the evolutionary dynamics of syntax.** Poster, 58th Annual Meeting of the Societas Linguistica Europaea.
+- **Writing does not impact the evolutionary dynamics of syntax.** Paper, *Emerging Topics in Typology*, Max Planck Institute for Evolutionary Anthropology.
+- **The Resh Riddle - Identifying the Biblical Hebrew Rhotic.** Poster, 8th 'R-atics conference, Valletta.
+- **Writing does not impact the evolutionary dynamics of syntax.** Paper, *Bridging the gap: Unifying approaches to linguistic evolution*, University of Zurich.
+
+## 2024
+
+- **Evolutionary dynamics of clause linkage constructions.** Invited lecture, University of Passau colloquium.
+- **How dendrophilic is clause linkage?** Poster, 57th Annual Meeting of the Societas Linguistica Europaea.
+- **How dendrophilic is clause linkage?** Paper, IMPRS 2024 conference, Nijmegen.
+
+## 2021
+
+- **In Search of the Biblical Rhotic: Identifying Biblical Hebrew's Resh.** Poster, 5th Edinburgh Symposium on Historical Phonology.
+- **L'histoire de la langue arameenne et son usage dans les differents cultes.** Invited lecture for the general public, Israelite Community of Lausanne and the Canton of Vaud.
+- **The Resh Riddle: Identifying the Biblical Hebrew Rhotic.** Second Temple Early Career Academy summer conference.
+- **Ab Antiquo: Neural Proto-language Reconstruction.** Paper presented at NAACL 2021.
+
+## 2020
+
+- **In Search for the Biblical Rhotic: A Phonological Reconstruction of Resh.** Tel Aviv University Linguistics Department Colloquium.
+
+## 2019
+
+- **Ab Antiquo: Proto-language Reconstruction with RNNs.** Poster at ACL 2019, with Shauli Ravfogel and Yoav Goldberg.
+- **RNNs for proto-words reconstruction.** Paper at the 35th annual meeting of the Haiim B. Rosen Israeli Linguistic Society, with Shauli Ravfogel and Yoav Goldberg.

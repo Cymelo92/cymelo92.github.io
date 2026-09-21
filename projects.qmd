@@ -1,0 +1,37 @@
+---
+title: "Projects"
+---
+
+## ProduSemy
+
+<div class="project-entry">
+<div class="project-title">Productivity and Semantics in Language Evolution</div>
+
+**University of Passau, 2025-2027**
+
+I work as a postdoctoral researcher at the Chair of Multilingual Computational Linguistics on the ProduSemy project. My contribution centers on linguistic evolution, comparative and quantitative analysis, and computational approaches to cross-linguistic patterns.
+
+[CALC Lab](https://calclab.org) | [University of Passau profile](https://www.geku.uni-passau.de/mcl/team/carlo-meloni)
+</div>
+
+## Syntactic hierarchy in linguistic evolution
+
+<div class="project-entry">
+<div class="project-title">PhD research on clause linkage</div>
+
+**University of Zurich, 2021-2025**
+
+My doctoral research investigated the emergence and diachronic behaviour of clause-linkage structures from a phylogenetic perspective. The dissertation is titled *Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage*.
+
+[Dissertation record](https://www.zora.uzh.ch/handle/20.500.14742/238107)
+</div>
+
+## Neural proto-language reconstruction
+
+<div class="project-entry">
+<div class="project-title">Ab Antiquo</div>
+
+With Shauli Ravfogel and Yoav Goldberg, I worked on neural approaches to proto-language reconstruction. The resulting paper, *Ab Antiquo: Neural Proto-language Reconstruction*, appeared at NAACL 2021.
+
+[ACL Anthology](https://aclanthology.org/2021.naacl-main.353/)
+</div>

@@ -1,0 +1,32 @@
+---
+title: "Teaching & Academic Service"
+---
+
+## Teaching
+
+### University of Zurich
+
+**Fieldwork Methods and Elicitation Techniques**  
+Spring 2024 - teaching assistant, MA level, Department of Comparative Language Science.
+
+**Methods in Evolutionary Linguistics**  
+Fall 2022 and Fall 2023 - teaching assistant, MA level, Department of Comparative Language Science.
+
+### Tel Aviv University
+
+**Advanced Phonology**  
+Spring 2020 - teaching assistant, second-year BA pro-seminar, Linguistics Department.
+
+**Introduction to Linguistics**  
+Fall 2019 - teaching assistant, first-year BA course, Linguistics Department.
+
+## Academic service
+
+### Reviewer
+
+- *Linguistic Typology*
+- *Scientific Reports*
+
+## Selected training
+
+My methodological training includes Bayesian phylogenetic inference with BEAST2, statistical methods for linguistics and psychology, Gaussian processes and uncertainty quantification, machine learning, text analytics, reproducible research, and scientific computing on Linux/HPC systems.

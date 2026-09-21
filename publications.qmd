@@ -1,0 +1,80 @@
+---
+title: "Publications"
+---
+
+This page lists publications and preprints from my current CV. For citation metadata and updates, see also [Google Scholar](https://scholar.google.com/citations?user=G9yLO24AAAAJ&hl=en) and [ORCID](https://orcid.org/0009-0008-0383-7267).
+
+## 2026
+
+<div class="pub-entry">
+<div class="pub-title">How communicatively optimal are exact numeral systems? Once more on lexicon size and morphosyntactic complexity</div>
+
+Chundra Cathcart, Arne Rubehn, Katja Bocklage, Luca Ciucci, Kellen Parker van Dam, Al&#382;b&#283;ta Ku&#269;erov&aacute;, Jekaterina Ma&#382;ara, **Carlo Y. Meloni**, David Snee, and Johann-Mattis List.  
+*Proceedings of the Annual Meeting of the Cognitive Science Society*, 48.
+
+[Publication](https://escholarship.org/uc/item/4hz9j5f8)
+</div>
+
+<div class="pub-entry">
+<div class="pub-title">Naming variation across languages is shaped by shared histories, semantics and familiarity</div>
+
+Al&#382;b&#283;ta Ku&#269;erov&aacute;, **Carlo Y. Meloni**, and Johann-Mattis List. Preprint.
+
+[Preprint](https://osf.io/preprints/psyarxiv/8tq2p_v1) | [DOI](https://doi.org/10.31234/osf.io/8tq2p_v1)
+</div>
+
+<div class="pub-entry">
+<div class="pub-title">A New Look at Avoidance Phenomena in Maltese Roots</div>
+
+**Carlo Y. Meloni** and Kellen Parker van Dam.  
+*Journal of Maltese Linguistics*. Forthcoming.
+</div>
+
+## 2025
+
+<div class="pub-entry">
+<div class="pub-title">A Phylogenetic Perspective on the Syntax-Semantics Interface: A Case Study in Clause Linkage Constructions</div>
+
+**Carlo Y. Meloni**, Chundra Cathcart, Erik J. Ringen, Jessica K. Ivani, and Balthasar Bickel.  
+*bioRxiv*.
+
+[Preprint](https://www.biorxiv.org/content/early/2025/07/23/2025.07.19.665697) | [DOI](https://doi.org/10.1101/2025.07.19.665697)
+</div>
+
+<div class="pub-entry">
+<div class="pub-title">Linguistic evolution minimizes the amount of syntactic hierarchy in grammar</div>
+
+**Carlo Y. Meloni**, Chundra A. Cathcart, Jessica K. Ivani, Taras Zakharko, Erik J. Ringen, and Balthasar Bickel.  
+*bioRxiv*.
+
+[Preprint](https://www.biorxiv.org/content/early/2025/07/23/2025.07.19.665693) | [DOI](https://doi.org/10.1101/2025.07.19.665693)
+</div>
+
+<div class="pub-entry">
+<div class="pub-title">Writing does not Impact the Evolution of Syntax</div>
+
+**Carlo Y. Meloni**, Jessica K. Ivani, Taras Zakharko, Guanghao You, Chundra A. Cathcart, and Balthasar Bickel.  
+*bioRxiv*.
+
+[Preprint](https://www.biorxiv.org/content/early/2025/07/23/2025.07.19.665695) | [DOI](https://doi.org/10.1101/2025.07.19.665695)
+</div>
+
+<div class="pub-entry">
+<div class="pub-title">Towards a Unified Conversion Table for Semitic Transcriptions and Transliterations</div>
+
+**Carlo Y. Meloni** and Johann-Mattis List.  
+*Computer-Assisted Language Comparison in Practice: Tutorials on Computational Approaches to the History and Diversity of Languages*, 8(2), 107-112.
+
+[Publication](https://ojs.uni-passau.de/index.php/calcip/article/view/270) | [DOI](https://doi.org/10.15475/calcip.2025.2.6)
+</div>
+
+## 2021
+
+<div class="pub-entry">
+<div class="pub-title">Ab Antiquo: Neural Proto-language Reconstruction</div>
+
+**Carlo Y. Meloni**, Shauli Ravfogel, and Yoav Goldberg.  
+*Proceedings of NAACL-HLT 2021*, 4460-4473.
+
+[ACL Anthology](https://aclanthology.org/2021.naacl-main.353/) | [DOI](https://doi.org/10.18653/v1/2021.naacl-main.353)
+</div>

@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - files/**
+    - images/**
+
+website:
+  title: "Carlo Y. Meloni"
+  site-url: "https://cymelo92.github.io"
+  description: "Personal academic website of Carlo Y. Meloni, postdoctoral researcher in linguistics at the University of Passau."
+  navbar:
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Research
+        menu:
+          - href: research.qmd
+            text: Research interests
+          - href: projects.qmd
+            text: Projects
+      - href: publications.qmd
+        text: Publications
+      - text: Academic
+        menu:
+          - href: talks.qmd
+            text: Talks & presentations
+          - href: teaching.qmd
+            text: Teaching & service
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/Cymelo92
+        aria-label: GitHub
+      - text: ORCID
+        href: https://orcid.org/0009-0008-0383-7267
+      - text: Scholar
+        href: https://scholar.google.com/citations?user=G9yLO24AAAAJ&hl=en
+  page-footer:
+    left: "Copyright 2026 Carlo Y. Meloni"
+    right: "Built with Quarto and hosted on GitHub Pages"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

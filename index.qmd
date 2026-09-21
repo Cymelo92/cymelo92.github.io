@@ -1,0 +1,60 @@
+---
+title: "Carlo Y. Meloni"
+subtitle: "Postdoctoral Researcher in Linguistics"
+page-layout: full
+---
+
+::: {.grid .hero}
+::: {.g-col-12 .g-col-md-4}
+![](https://calclab.org/img/carlo-round.jpg){.profile-photo fig-alt="Portrait of Carlo Y. Meloni"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+<div class="lead-academic">
+I am a postdoctoral researcher at the Chair of Multilingual Computational Linguistics at the University of Passau, where I work on the **ProduSemy** project.
+</div>
+
+My research investigates **linguistic evolution**, with a particular focus on syntax and on how hierarchical structures change over time. Methodologically, I combine comparative typology, Bayesian phylogenetic inference, and computational modelling to study cross-linguistic patterns and their historical development.
+
+I completed my PhD at the Institute for the Interdisciplinary Study of Language Evolution (ISLE), University of Zurich. My dissertation, *Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage*, examined the emergence and diachronic behaviour of clause-linkage structures.
+
+<div class="quick-links">
+[Research](research.qmd){.btn .btn-primary}
+[Publications](publications.qmd){.btn .btn-outline-primary}
+[Download CV](files/Carlo_Meloni_CV.pdf){.btn .btn-outline-primary}
+</div>
+:::
+:::
+
+## Research interests
+
+<div class="research-tags">
+<span>Language evolution</span>
+<span>Linguistic typology</span>
+<span>Historical linguistics</span>
+<span>Clause-linkage syntax</span>
+<span>Semitic languages</span>
+<span>Bayesian phylogenetics</span>
+<span>Computational linguistics</span>
+<span>Quantitative linguistics</span>
+</div>
+
+## Current position
+
+**Postdoctoral Researcher, University of Passau**  
+Chair of Multilingual Computational Linguistics  
+ProduSemy project, 2025-2027
+
+## Links
+
+- [University of Passau profile](https://www.geku.uni-passau.de/mcl/team/carlo-meloni)
+- [CALC Lab](https://calclab.org)
+- [ORCID: 0009-0008-0383-7267](https://orcid.org/0009-0008-0383-7267)
+- [Google Scholar](https://scholar.google.com/citations?user=G9yLO24AAAAJ&hl=en)
+- [GitHub](https://github.com/Cymelo92)
+
+## Contact
+
+**Email:** [carlo.meloni@uni-passau.de](mailto:carlo.meloni@uni-passau.de)  
+**Affiliation:** University of Passau, Chair of Multilingual Computational Linguistics  
+**Address:** Dr.-Hans-Kapfinger-Strasse 14d, 94032 Passau, Germany

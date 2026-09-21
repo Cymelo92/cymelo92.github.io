@@ -1,0 +1,261 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Full academic CV\nDownload CV as PDF\n\nThe included PDF is the September 2026 version supplied with this website starter."
+  },
+  {
+    "objectID": "cv.html#current-position",
+    "href": "cv.html#current-position",
+    "title": "Curriculum Vitae",
+    "section": "Current position",
+    "text": "Current position\nPostdoctoral Researcher, University of Passau, Chair of Multilingual Computational Linguistics, 2025-2027. Research on the ProduSemy project."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\nPhD in Linguistics, University of Zurich, 2021-2025\nDissertation: Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage\nAdvisors: Balthasar Bickel, Chundra A. Cathcart, Jessica K. Ivani.\nMA in Linguistics, Tel Aviv University, 2019-2021\nThesis: The Resh Riddle: Identifying the Biblical Hebrew Rhotic.\nBA in Linguistics, minor in Biology, Tel Aviv University, 2016-2019."
+  },
+  {
+    "objectID": "cv.html#research-interests",
+    "href": "cv.html#research-interests",
+    "title": "Curriculum Vitae",
+    "section": "Research interests",
+    "text": "Research interests\nLanguage evolution; linguistic typology; historical linguistics; clause-linkage syntax; Semitic languages; Bayesian phylogenetics; computational and quantitative linguistics."
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Technical skills",
+    "text": "Technical skills\n\nProgramming: R, Python, SQL\nStatistical modelling: Stan, Bayesian hierarchical modelling, Gaussian processes\nPhylogenetics: BEAST2, Bayesian phylogenetic comparative methods\nResearch computing: Git, Linux, Slurm/HPC\nReproducible research: Quarto, R Markdown, Pandoc, LaTeX"
+  },
+  {
+    "objectID": "cv.html#external-profiles",
+    "href": "cv.html#external-profiles",
+    "title": "Curriculum Vitae",
+    "section": "External profiles",
+    "text": "External profiles\n\nUniversity of Passau\nCALC Lab\nORCID\nGoogle Scholar\nGitHub"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This page lists publications and preprints from my current CV. For citation metadata and updates, see also Google Scholar and ORCID."
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "2026",
+    "text": "2026\n\n\nHow communicatively optimal are exact numeral systems? Once more on lexicon size and morphosyntactic complexity\n\nChundra Cathcart, Arne Rubehn, Katja Bocklage, Luca Ciucci, Kellen Parker van Dam, Alžběta Kučerová, Jekaterina Mažara, Carlo Y. Meloni, David Snee, and Johann-Mattis List.\nProceedings of the Annual Meeting of the Cognitive Science Society, 48.\nPublication\n\n\n\nNaming variation across languages is shaped by shared histories, semantics and familiarity\n\nAlžběta Kučerová, Carlo Y. Meloni, and Johann-Mattis List. Preprint.\nPreprint | DOI\n\n\n\nA New Look at Avoidance Phenomena in Maltese Roots\n\nCarlo Y. Meloni and Kellen Parker van Dam.\nJournal of Maltese Linguistics. Forthcoming."
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\n\n\nA Phylogenetic Perspective on the Syntax-Semantics Interface: A Case Study in Clause Linkage Constructions\n\nCarlo Y. Meloni, Chundra Cathcart, Erik J. Ringen, Jessica K. Ivani, and Balthasar Bickel.\nbioRxiv.\nPreprint | DOI\n\n\n\nLinguistic evolution minimizes the amount of syntactic hierarchy in grammar\n\nCarlo Y. Meloni, Chundra A. Cathcart, Jessica K. Ivani, Taras Zakharko, Erik J. Ringen, and Balthasar Bickel.\nbioRxiv.\nPreprint | DOI\n\n\n\nWriting does not Impact the Evolution of Syntax\n\nCarlo Y. Meloni, Jessica K. Ivani, Taras Zakharko, Guanghao You, Chundra A. Cathcart, and Balthasar Bickel.\nbioRxiv.\nPreprint | DOI\n\n\n\nTowards a Unified Conversion Table for Semitic Transcriptions and Transliterations\n\nCarlo Y. Meloni and Johann-Mattis List.\nComputer-Assisted Language Comparison in Practice: Tutorials on Computational Approaches to the History and Diversity of Languages, 8(2), 107-112.\nPublication | DOI"
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2021",
+    "text": "2021\n\n\nAb Antiquo: Neural Proto-language Reconstruction\n\nCarlo Y. Meloni, Shauli Ravfogel, and Yoav Goldberg.\nProceedings of NAACL-HLT 2021, 4460-4473.\nACL Anthology | DOI"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Productivity and Semantics in Language Evolution\n\nUniversity of Passau, 2025-2027\nI work as a postdoctoral researcher at the Chair of Multilingual Computational Linguistics on the ProduSemy project. My contribution centers on linguistic evolution, comparative and quantitative analysis, and computational approaches to cross-linguistic patterns.\nCALC Lab | University of Passau profile"
+  },
+  {
+    "objectID": "projects.html#produsemy",
+    "href": "projects.html#produsemy",
+    "title": "Projects",
+    "section": "",
+    "text": "Productivity and Semantics in Language Evolution\n\nUniversity of Passau, 2025-2027\nI work as a postdoctoral researcher at the Chair of Multilingual Computational Linguistics on the ProduSemy project. My contribution centers on linguistic evolution, comparative and quantitative analysis, and computational approaches to cross-linguistic patterns.\nCALC Lab | University of Passau profile"
+  },
+  {
+    "objectID": "projects.html#syntactic-hierarchy-in-linguistic-evolution",
+    "href": "projects.html#syntactic-hierarchy-in-linguistic-evolution",
+    "title": "Projects",
+    "section": "Syntactic hierarchy in linguistic evolution",
+    "text": "Syntactic hierarchy in linguistic evolution\n\n\nPhD research on clause linkage\n\nUniversity of Zurich, 2021-2025\nMy doctoral research investigated the emergence and diachronic behaviour of clause-linkage structures from a phylogenetic perspective. The dissertation is titled Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage.\nDissertation record"
+  },
+  {
+    "objectID": "projects.html#neural-proto-language-reconstruction",
+    "href": "projects.html#neural-proto-language-reconstruction",
+    "title": "Projects",
+    "section": "Neural proto-language reconstruction",
+    "text": "Neural proto-language reconstruction\n\n\nAb Antiquo\n\nWith Shauli Ravfogel and Yoav Goldberg, I worked on neural approaches to proto-language reconstruction. The resulting paper, Ab Antiquo: Neural Proto-language Reconstruction, appeared at NAACL 2021.\nACL Anthology"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks & Presentations",
+    "section": "",
+    "text": "A Quantitative Analysis of Biblical Hebrew’s Rhotic. Invited lecture, European Hebrew Journal International Scholarly Conference.\nA Phylogenetic Perspective on the Syntax-Semantics Interface. Paper presented at the 16th International Conference of the Association for Linguistic Typology.\nWord Family Evolution in Semitic Languages. Talk at qc-leste: Quantitative Cross-Linguistic Explorations of Space, Time, and Evolution."
+  },
+  {
+    "objectID": "talks.html#section",
+    "href": "talks.html#section",
+    "title": "Talks & Presentations",
+    "section": "",
+    "text": "A Quantitative Analysis of Biblical Hebrew’s Rhotic. Invited lecture, European Hebrew Journal International Scholarly Conference.\nA Phylogenetic Perspective on the Syntax-Semantics Interface. Paper presented at the 16th International Conference of the Association for Linguistic Typology.\nWord Family Evolution in Semitic Languages. Talk at qc-leste: Quantitative Cross-Linguistic Explorations of Space, Time, and Evolution."
+  },
+  {
+    "objectID": "talks.html#section-1",
+    "href": "talks.html#section-1",
+    "title": "Talks & Presentations",
+    "section": "2025",
+    "text": "2025\n\nWriting does not impact the evolutionary dynamics of syntax. Poster, 58th Annual Meeting of the Societas Linguistica Europaea.\nWriting does not impact the evolutionary dynamics of syntax. Paper, Emerging Topics in Typology, Max Planck Institute for Evolutionary Anthropology.\nThe Resh Riddle - Identifying the Biblical Hebrew Rhotic. Poster, 8th ’R-atics conference, Valletta.\nWriting does not impact the evolutionary dynamics of syntax. Paper, Bridging the gap: Unifying approaches to linguistic evolution, University of Zurich."
+  },
+  {
+    "objectID": "talks.html#section-2",
+    "href": "talks.html#section-2",
+    "title": "Talks & Presentations",
+    "section": "2024",
+    "text": "2024\n\nEvolutionary dynamics of clause linkage constructions. Invited lecture, University of Passau colloquium.\nHow dendrophilic is clause linkage? Poster, 57th Annual Meeting of the Societas Linguistica Europaea.\nHow dendrophilic is clause linkage? Paper, IMPRS 2024 conference, Nijmegen."
+  },
+  {
+    "objectID": "talks.html#section-3",
+    "href": "talks.html#section-3",
+    "title": "Talks & Presentations",
+    "section": "2021",
+    "text": "2021\n\nIn Search of the Biblical Rhotic: Identifying Biblical Hebrew’s Resh. Poster, 5th Edinburgh Symposium on Historical Phonology.\nL’histoire de la langue arameenne et son usage dans les differents cultes. Invited lecture for the general public, Israelite Community of Lausanne and the Canton of Vaud.\nThe Resh Riddle: Identifying the Biblical Hebrew Rhotic. Second Temple Early Career Academy summer conference.\nAb Antiquo: Neural Proto-language Reconstruction. Paper presented at NAACL 2021."
+  },
+  {
+    "objectID": "talks.html#section-4",
+    "href": "talks.html#section-4",
+    "title": "Talks & Presentations",
+    "section": "2020",
+    "text": "2020\n\nIn Search for the Biblical Rhotic: A Phonological Reconstruction of Resh. Tel Aviv University Linguistics Department Colloquium."
+  },
+  {
+    "objectID": "talks.html#section-5",
+    "href": "talks.html#section-5",
+    "title": "Talks & Presentations",
+    "section": "2019",
+    "text": "2019\n\nAb Antiquo: Proto-language Reconstruction with RNNs. Poster at ACL 2019, with Shauli Ravfogel and Yoav Goldberg.\nRNNs for proto-words reconstruction. Paper at the 35th annual meeting of the Haiim B. Rosen Israeli Linguistic Society, with Shauli Ravfogel and Yoav Goldberg."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching & Academic Service",
+    "section": "",
+    "text": "Fieldwork Methods and Elicitation Techniques\nSpring 2024 - teaching assistant, MA level, Department of Comparative Language Science.\nMethods in Evolutionary Linguistics\nFall 2022 and Fall 2023 - teaching assistant, MA level, Department of Comparative Language Science.\n\n\n\nAdvanced Phonology\nSpring 2020 - teaching assistant, second-year BA pro-seminar, Linguistics Department.\nIntroduction to Linguistics\nFall 2019 - teaching assistant, first-year BA course, Linguistics Department."
+  },
+  {
+    "objectID": "teaching.html#teaching",
+    "href": "teaching.html#teaching",
+    "title": "Teaching & Academic Service",
+    "section": "",
+    "text": "Fieldwork Methods and Elicitation Techniques\nSpring 2024 - teaching assistant, MA level, Department of Comparative Language Science.\nMethods in Evolutionary Linguistics\nFall 2022 and Fall 2023 - teaching assistant, MA level, Department of Comparative Language Science.\n\n\n\nAdvanced Phonology\nSpring 2020 - teaching assistant, second-year BA pro-seminar, Linguistics Department.\nIntroduction to Linguistics\nFall 2019 - teaching assistant, first-year BA course, Linguistics Department."
+  },
+  {
+    "objectID": "teaching.html#academic-service",
+    "href": "teaching.html#academic-service",
+    "title": "Teaching & Academic Service",
+    "section": "Academic service",
+    "text": "Academic service\n\nReviewer\n\nLinguistic Typology\nScientific Reports"
+  },
+  {
+    "objectID": "teaching.html#selected-training",
+    "href": "teaching.html#selected-training",
+    "title": "Teaching & Academic Service",
+    "section": "Selected training",
+    "text": "Selected training\nMy methodological training includes Bayesian phylogenetic inference with BEAST2, statistical methods for linguistics and psychology, Gaussian processes and uncertainty quantification, machine learning, text analytics, reproducible research, and scientific computing on Linux/HPC systems."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on how linguistic structures emerge, change, and persist through time. I combine historical and comparative linguistics with quantitative modelling, phylogenetic methods, and cross-linguistic typology."
+  },
+  {
+    "objectID": "research.html#syntax-and-linguistic-evolution",
+    "href": "research.html#syntax-and-linguistic-evolution",
+    "title": "Research",
+    "section": "Syntax and linguistic evolution",
+    "text": "Syntax and linguistic evolution\nA central strand of my work concerns the evolution of syntactic hierarchy, especially in clause-linkage constructions. I am interested in how relations between clauses vary across languages, how those structures evolve, and how syntactic organization interacts with semantics.\nMy doctoral dissertation, Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage, developed a phylogenetic perspective on these questions."
+  },
+  {
+    "objectID": "research.html#comparative-typology-and-phylogenetics",
+    "href": "research.html#comparative-typology-and-phylogenetics",
+    "title": "Research",
+    "section": "Comparative typology and phylogenetics",
+    "text": "Comparative typology and phylogenetics\nI use Bayesian phylogenetic inference and phylogenetic comparative methods to investigate historical dependencies in cross-linguistic data. This work addresses questions that are difficult to answer from synchronic typological distributions alone, because related languages are not statistically independent observations.\nMethodologically, my work includes:\n\nBayesian phylogenetic inference\nphylogenetic comparative methods\nBayesian hierarchical modelling\nGaussian processes\ncomparative typology\ncorpus-based quantitative analysis"
+  },
+  {
+    "objectID": "research.html#historical-and-semitic-linguistics",
+    "href": "research.html#historical-and-semitic-linguistics",
+    "title": "Research",
+    "section": "Historical and Semitic linguistics",
+    "text": "Historical and Semitic linguistics\nMy broader research background includes Semitic languages, historical phonology, Hebrew and Aramaic varieties, and transcription systems. I have worked on Biblical Hebrew rhotics, Mandaic transcription and annotation, and comparative resources for Semitic transcription and transliteration."
+  },
+  {
+    "objectID": "research.html#computational-modelling",
+    "href": "research.html#computational-modelling",
+    "title": "Research",
+    "section": "Computational modelling",
+    "text": "Computational modelling\nI also work with computational approaches to historical linguistics and language evolution. Earlier work included neural proto-language reconstruction, while more recent work combines computational modelling with typological and phylogenetic data."
+  },
+  {
+    "objectID": "research.html#technical-methods",
+    "href": "research.html#technical-methods",
+    "title": "Research",
+    "section": "Technical methods",
+    "text": "Technical methods\nI work primarily with R, Python, and SQL, with statistical modelling in Stan and phylogenetic analysis in BEAST2. My research workflow uses Git, Linux, Slurm/HPC, Quarto, R Markdown, Pandoc, and LaTeX."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Carlo Y. Meloni",
+    "section": "",
+    "text": "I am a postdoctoral researcher at the Chair of Multilingual Computational Linguistics at the University of Passau, where I work on the ProduSemy project.\n\nMy research investigates linguistic evolution, with a particular focus on syntax and on how hierarchical structures change over time. Methodologically, I combine comparative typology, Bayesian phylogenetic inference, and computational modelling to study cross-linguistic patterns and their historical development.\nI completed my PhD at the Institute for the Interdisciplinary Study of Language Evolution (ISLE), University of Zurich. My dissertation, Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage, examined the emergence and diachronic behaviour of clause-linkage structures.\n\nResearch Publications Download CV"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Carlo Y. Meloni",
+    "section": "Research interests",
+    "text": "Research interests\n\nLanguage evolution Linguistic typology Historical linguistics Clause-linkage syntax Semitic languages Bayesian phylogenetics Computational linguistics Quantitative linguistics"
+  },
+  {
+    "objectID": "index.html#current-position",
+    "href": "index.html#current-position",
+    "title": "Carlo Y. Meloni",
+    "section": "Current position",
+    "text": "Current position\nPostdoctoral Researcher, University of Passau\nChair of Multilingual Computational Linguistics\nProduSemy project, 2025-2027"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "Carlo Y. Meloni",
+    "section": "Links",
+    "text": "Links\n\nUniversity of Passau profile\nCALC Lab\nORCID: 0009-0008-0383-7267\nGoogle Scholar\nGitHub"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Carlo Y. Meloni",
+    "section": "Contact",
+    "text": "Contact\nEmail: carlo.meloni@uni-passau.de\nAffiliation: University of Passau, Chair of Multilingual Computational Linguistics\nAddress: Dr.-Hans-Kapfinger-Strasse 14d, 94032 Passau, Germany"
+  },
+  {
+    "objectID": "LAUNCH_CHECKLIST.html",
+    "href": "LAUNCH_CHECKLIST.html",
+    "title": "Launch checklist",
+    "section": "",
+    "text": "Launch checklist\nBefore making the repository public and enabling GitHub Pages:\n\nRun quarto preview and inspect every page.\nRun quarto render and make sure the docs/ directory is created.\nCheck that docs/index.html exists.\nCheck that the CV download works locally.\nVerify your preferred public email address.\nVerify the University of Passau, CALC Lab, ORCID, Google Scholar, and GitHub links.\nReview the publication list against your latest CV and Scholar/ORCID records.\nDecide whether to keep the CALC-hosted profile photo or store a local copy in images/.\nRemove anything from the repository that you do not want to become public.\nCommit and push the latest source files and rendered docs/ files.\nChange repository visibility from Private to Public if using GitHub Free.\nIn GitHub: Settings &gt; Pages &gt; Build and deployment.\nSet Source to Deploy from a branch.\nSet Branch to main and Folder to /docs.\nSave and wait for the deployment to complete.\nVisit https://cymelo92.github.io in a private/incognito browser window."
+  }
+]

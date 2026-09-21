@@ -1,0 +1,46 @@
+---
+title: "Curriculum Vitae"
+---
+
+<div class="cv-card">
+**Full academic CV**
+
+[Download CV as PDF](files/Carlo_Meloni_CV.pdf){.btn .btn-primary}
+
+<div class="small-note">The included PDF is the September 2026 version supplied with this website starter.</div>
+</div>
+
+## Current position
+
+**Postdoctoral Researcher**, University of Passau, Chair of Multilingual Computational Linguistics, 2025-2027. Research on the ProduSemy project.
+
+## Education
+
+**PhD in Linguistics**, University of Zurich, 2021-2025  
+Dissertation: *Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage*  
+Advisors: Balthasar Bickel, Chundra A. Cathcart, Jessica K. Ivani.
+
+**MA in Linguistics**, Tel Aviv University, 2019-2021  
+Thesis: *The Resh Riddle: Identifying the Biblical Hebrew Rhotic*.
+
+**BA in Linguistics, minor in Biology**, Tel Aviv University, 2016-2019.
+
+## Research interests
+
+Language evolution; linguistic typology; historical linguistics; clause-linkage syntax; Semitic languages; Bayesian phylogenetics; computational and quantitative linguistics.
+
+## Technical skills
+
+- **Programming:** R, Python, SQL
+- **Statistical modelling:** Stan, Bayesian hierarchical modelling, Gaussian processes
+- **Phylogenetics:** BEAST2, Bayesian phylogenetic comparative methods
+- **Research computing:** Git, Linux, Slurm/HPC
+- **Reproducible research:** Quarto, R Markdown, Pandoc, LaTeX
+
+## External profiles
+
+- [University of Passau](https://www.geku.uni-passau.de/mcl/team/carlo-meloni)
+- [CALC Lab](https://calclab.org)
+- [ORCID](https://orcid.org/0009-0008-0383-7267)
+- [Google Scholar](https://scholar.google.com/citations?user=G9yLO24AAAAJ&hl=en)
+- [GitHub](https://github.com/Cymelo92)
