@@ -9,7 +9,7 @@ title: "Projects"
 
 **University of Passau, 2025-2027**
 
-I work as a postdoctoral researcher at the Chair of Multilingual Computational Linguistics on the ProduSemy project. My contribution centers on linguistic evolution, comparative and quantitative analysis, and computational approaches to cross-linguistic patterns.
+I work as a postdoctoral researcher at the Chair of Multilingual Computational Linguistics on the ProduSemy project. My role focuses on supporting colleagues with statistical analysis and modelling, as well as creating and standardizing linguistic datasets for quantitative and comparative research.
 
 [CALC Lab](https://calclab.org) | [University of Passau profile](https://www.geku.uni-passau.de/mcl/team/carlo-meloni)
 </div>

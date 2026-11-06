@@ -67,6 +67,92 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<!-- Apply the visitor's preferred color scheme before the page paints. -->
+<script>
+(function () {
+  var choice = null;
+  try { choice = window.localStorage.getItem('cymelo92-theme'); } catch (_) {}
+  if (choice !== 'dark' && choice !== 'light') {
+    choice = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  document.documentElement.setAttribute('data-bs-theme', choice);
+  document.documentElement.setAttribute('data-academic-theme', choice);
+})();
+</script>
+<script>
+/* Academic site theme switch: accessible, persistent, and independent of Quarto's theme CSS. */
+(function () {
+  'use strict';
+  const STORAGE_KEY = 'cymelo92-theme';
+  const root = document.documentElement;
+
+  function currentTheme() {
+    return root.getAttribute('data-academic-theme') === 'dark' ? 'dark' : 'light';
+  }
+
+  function setTheme(value, persist) {
+    const theme = value === 'dark' ? 'dark' : 'light';
+    root.setAttribute('data-academic-theme', theme);
+    root.setAttribute('data-bs-theme', theme);
+    if (persist) {
+      try { window.localStorage.setItem(STORAGE_KEY, theme); } catch (_) {}
+    }
+    updateButton();
+  }
+
+  let button;
+  function updateButton() {
+    if (!button) return;
+    const dark = currentTheme() === 'dark';
+    const nextTheme = dark ? 'light' : 'dark';
+    button.setAttribute('aria-label', 'Switch to ' + nextTheme + ' mode');
+    button.setAttribute('title', 'Switch to ' + nextTheme + ' mode');
+    button.setAttribute('aria-pressed', String(dark));
+    button.querySelector('.academic-theme-label').textContent = dark ? 'Light mode' : 'Dark mode';
+    button.querySelector('i').className = dark ? 'bi bi-sun' : 'bi bi-moon-stars';
+  }
+
+  function init() {
+    const nav = document.querySelector('#navbarCollapse .navbar-nav.ms-auto');
+    if (!nav || document.getElementById('academic-theme-toggle')) return;
+    const item = document.createElement('li');
+    item.className = 'nav-item academic-theme-item';
+    button = document.createElement('button');
+    button.id = 'academic-theme-toggle';
+    button.type = 'button';
+    button.className = 'nav-link academic-theme-toggle';
+    const icon = document.createElement('i');
+    icon.className = 'bi bi-moon-stars';
+    icon.setAttribute('aria-hidden', 'true');
+    const label = document.createElement('span');
+    label.className = 'academic-theme-label';
+    button.append(icon, document.createTextNode(' '), label);
+    button.addEventListener('click', function () {
+      setTheme(currentTheme() === 'dark' ? 'light' : 'dark', true);
+    });
+    item.append(button);
+    nav.append(item);
+    updateButton();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init, { once: true });
+  } else {
+    init();
+  }
+
+  // Follow OS changes until the visitor makes an explicit choice.
+  if (window.matchMedia) {
+    const preference = window.matchMedia('(prefers-color-scheme: dark)');
+    const onChange = function (event) {
+      let hasOverride = false;
+      try { hasOverride = ['dark', 'light'].includes(window.localStorage.getItem(STORAGE_KEY)); } catch (_) {}
+      if (!hasOverride) setTheme(event.matches ? 'dark' : 'light', false);
+    };
+    if (preference.addEventListener) preference.addEventListener('change', onChange);
+  }
+})();
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -93,21 +179,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="./research.html">
- <span class="dropdown-text">Research interests</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Projects</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
@@ -127,10 +202,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -163,8 +234,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#research-interests" id="toc-research-interests" class="nav-link active" data-scroll-target="#research-interests">Research interests</a></li>
-  <li><a href="#current-position" id="toc-current-position" class="nav-link" data-scroll-target="#current-position">Current position</a></li>
-  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -194,17 +263,17 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="grid hero">
 <div class="g-col-12 g-col-md-4">
-<p><img src="https://calclab.org/img/carlo-round.jpg" class="profile-photo img-fluid" alt="Portrait of Carlo Y. Meloni"></p>
+<p><img src="docs/images/carlo-round.jpg" class="profile-photo img-fluid" alt="Portrait of Carlo Y. Meloni"></p>
 </div>
 <div class="g-col-12 g-col-md-8">
 <div class="lead-academic">
 <p>I am a postdoctoral researcher at the Chair of Multilingual Computational Linguistics at the University of Passau, where I work on the <strong>ProduSemy</strong> project.</p>
 </div>
-<p>My research investigates <strong>linguistic evolution</strong>, with a particular focus on syntax and on how hierarchical structures change over time. Methodologically, I combine comparative typology, Bayesian phylogenetic inference, and computational modelling to study cross-linguistic patterns and their historical development.</p>
+<p>My research investigates <strong>linguistic evolution</strong> through quantitative and comparative approaches. In my current postdoctoral role, I support colleagues with statistical analysis and modelling, and develop and standardize linguistic datasets. Methodologically, I combine comparative typology, Bayesian phylogenetic inference, and computational modelling to study cross-linguistic patterns and their historical development.</p>
 <p>I completed my PhD at the Institute for the Interdisciplinary Study of Language Evolution (ISLE), University of Zurich. My dissertation, <em>Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage</em>, examined the emergence and diachronic behaviour of clause-linkage structures.</p>
-<div class="quick-links">
-<p><a href="./research.html" class="btn btn-primary">Research</a> <a href="./publications.html" class="btn btn-outline-primary">Publications</a> <a href="files/Carlo_Meloni_CV.pdf" class="btn btn-outline-primary">Download CV</a></p>
-</div>
+<p class="hero-actions">
+<a class="btn btn-primary cv-download" href="files/Carlo_Meloni_CV.pdf" download="Carlo_Meloni_CV.pdf" type="application/pdf" aria-label="Download academic CV as PDF"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i> Download CV (PDF)</a>
+</p>
 </div>
 </div>
 <section id="research-interests" class="level2">
@@ -213,27 +282,30 @@ ul.task-list li input[type="checkbox"] {
 <p><span>Language evolution</span> <span>Linguistic typology</span> <span>Historical linguistics</span> <span>Clause-linkage syntax</span> <span>Semitic languages</span> <span>Bayesian phylogenetics</span> <span>Computational linguistics</span> <span>Quantitative linguistics</span></p>
 </div>
 </section>
-<section id="current-position" class="level2">
-<h2 class="anchored" data-anchor-id="current-position">Current position</h2>
-<p><strong>Postdoctoral Researcher, University of Passau</strong><br>
-Chair of Multilingual Computational Linguistics<br>
-ProduSemy project, 2025-2027</p>
-</section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<ul>
-<li><a href="https://www.geku.uni-passau.de/mcl/team/carlo-meloni">University of Passau profile</a></li>
-<li><a href="https://calclab.org">CALC Lab</a></li>
-<li><a href="https://orcid.org/0009-0008-0383-7267">ORCID: 0009-0008-0383-7267</a></li>
-<li><a href="https://scholar.google.com/citations?user=G9yLO24AAAAJ&amp;hl=en">Google Scholar</a></li>
-<li><a href="https://github.com/Cymelo92">GitHub</a></li>
-</ul>
-</section>
 <section id="contact" class="level2">
 <h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<p><strong>Email:</strong> <a href="mailto:carlo.meloni@uni-passau.de">carlo.meloni@uni-passau.de</a><br>
-<strong>Affiliation:</strong> University of Passau, Chair of Multilingual Computational Linguistics<br>
-<strong>Address:</strong> Dr.-Hans-Kapfinger-Strasse 14d, 94032 Passau, Germany</p>
+<p>You can contact me using the form below.</p>
+<form class="contact-form" action="https://formsubmit.co/carlo.meloni@uni-passau.de" method="POST" accept-charset="UTF-8">
+<input type="hidden" name="_subject" value="New message from personal website"> <input type="hidden" name="_template" value="table"> <input type="text" name="_honey" class="contact-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="contact-field">
+<pre><code>&lt;label for="contact-name"&gt;Name&lt;/label&gt;
+&lt;input id="contact-name" name="name" type="text" autocomplete="name" maxlength="120" required&gt;</code></pre>
+</div>
+<div class="contact-field">
+<pre><code>&lt;label for="contact-email"&gt;Your email&lt;/label&gt;
+&lt;input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required&gt;</code></pre>
+</div>
+<div class="contact-field">
+<pre><code>&lt;label for="contact-message"&gt;Message&lt;/label&gt;
+&lt;textarea id="contact-message" name="message" rows="6" maxlength="8000" required&gt;&lt;/textarea&gt;</code></pre>
+</div>
+<button class="contact-submit" type="submit">
+Send message
+</button>
+<p class="contact-note">
+Messages are processed by FormSubmit, a third-party form service. You may be asked to complete a spam check.
+</p>
+</form>
 
 
 </section>

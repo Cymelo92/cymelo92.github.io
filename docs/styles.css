@@ -64,15 +64,6 @@ a {
   font-size: 0.92rem;
 }
 
-.quick-links {
-  margin-top: 1.25rem;
-}
-
-.quick-links .btn {
-  margin-right: 0.4rem;
-  margin-bottom: 0.5rem;
-}
-
 .pub-entry,
 .talk-entry,
 .project-entry {
@@ -117,3 +108,128 @@ a {
     width: 210px;
   }
 }
+
+/* Accessible, responsive contact form */
+.contact-form { max-width: 37rem; margin: 1rem 0 2rem; }
+.contact-field { margin-bottom: 1.05rem; }
+.contact-field label { display: block; font-weight: 600; margin-bottom: .35rem; }
+.contact-field input, .contact-field textarea {
+  display: block; width: 100%; box-sizing: border-box;
+  padding: .65rem .8rem; border: 1px solid #aebac3;
+  border-radius: .35rem; background: #fff; color: #1e2933;
+  font: inherit; line-height: 1.5;
+}
+.contact-field input:focus-visible, .contact-field textarea:focus-visible,
+.contact-submit:focus-visible { outline: 3px solid #79aaca; outline-offset: 2px; }
+.contact-field textarea { resize: vertical; }
+.contact-submit {
+  border: 0; border-radius: .35rem; padding: .67rem 1.1rem;
+  font: inherit; font-weight: 600; color: white;
+  background: var(--academic-accent); cursor: pointer;
+}
+.contact-submit:hover { background: var(--academic-accent-dark); }
+.contact-note { font-size: .85rem; color: var(--academic-muted); margin-top: .7rem; }
+.contact-honeypot { display: none !important; }
+
+/* CV download is placed directly in the Home page's introduction. */
+.hero-actions { margin: 1.4rem 0 0; }
+.cv-download { font-weight: 600; padding: .65rem 1.05rem; }
+.cv-download .bi { margin-right: .35rem; }
+.cv-download:focus-visible, .academic-theme-toggle:focus-visible {
+  outline: 3px solid #79aaca;
+  outline-offset: 3px;
+}
+
+/* Publication identifiers remain readable and clickable on every screen. */
+.pub-links { margin-top: .3rem; overflow-wrap: anywhere; }
+.pub-links a { text-decoration-thickness: 1px; }
+.pub-link-separator { color: var(--academic-muted); padding: 0 .15rem; }
+.pub-doi-pending { color: var(--academic-muted); font-style: italic; font-size: .95rem; }
+
+/* Keyboard-operable color-scheme control in the global navigation. */
+.academic-theme-toggle {
+  font: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  width: 100%;
+  text-align: left;
+}
+.academic-theme-toggle .bi { font-size: 1rem; }
+@media (min-width: 992px) {
+  .academic-theme-toggle { white-space: nowrap; }
+}
+
+/* Native Bootstrap variables + academic-specific colors for dark mode. */
+html[data-academic-theme="dark"] {
+  color-scheme: dark;
+  --bs-body-bg: #141c26;
+  --bs-body-color: #e1e9f1;
+  --bs-heading-color: #f2f6fa;
+  --bs-emphasis-color: #ffffff;
+  --bs-link-color-rgb: 143, 196, 244;
+  --bs-link-hover-color-rgb: 189, 221, 250;
+  --bs-secondary-color: #afbecb;
+  --bs-border-color: #34475b;
+  --bs-secondary-bg: #263546;
+  --bs-tertiary-bg: #1d2937;
+  --academic-accent: #598fbd;
+  --academic-accent-dark: #477baa;
+  --academic-muted: #afbecb;
+  --academic-border: #394d61;
+  --academic-soft: #1d2a38;
+}
+html[data-academic-theme="dark"] .lead-academic { color: #d7e6f2; }
+html[data-academic-theme="dark"] #quarto-header,
+html[data-academic-theme="dark"] .navbar {
+  background-color: #192635 !important;
+  border-bottom-color: #36495b;
+}
+html[data-academic-theme="dark"] .navbar {
+  --bs-navbar-color: #dbe7f1;
+  --bs-navbar-hover-color: #fff;
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #f3f7fb;
+  --bs-navbar-brand-hover-color: #fff;
+}
+html[data-academic-theme="dark"] .navbar .nav-link,
+html[data-academic-theme="dark"] .navbar .navbar-brand,
+html[data-academic-theme="dark"] .navbar .dropdown-toggle { color: #dbe7f1; }
+html[data-academic-theme="dark"] .navbar .nav-link:hover,
+html[data-academic-theme="dark"] .navbar .nav-link:focus-visible { color: #fff; }
+html[data-academic-theme="dark"] .navbar .nav-link.active { color: #fff; font-weight: 600; }
+html[data-academic-theme="dark"] .navbar .dropdown-menu {
+  background: #223345;
+  border-color: #34485c;
+}
+html[data-academic-theme="dark"] .navbar .dropdown-item { color: #e1e9f1; }
+html[data-academic-theme="dark"] .navbar .dropdown-item:hover,
+html[data-academic-theme="dark"] .navbar .dropdown-item:focus-visible {
+  color: #fff; background: #324d66;
+}
+html[data-academic-theme="dark"] .contact-field input,
+html[data-academic-theme="dark"] .contact-field textarea {
+  background: #202e3c;
+  color: #e9f1f8;
+  border-color: #597085;
+}
+html[data-academic-theme="dark"] .contact-submit { background: #406d90; }
+html[data-academic-theme="dark"] .contact-submit:hover { background: #5682a5; }
+html[data-academic-theme="dark"] .cv-download { background: #457da9; border-color: #457da9; color: #fff; }
+html[data-academic-theme="dark"] .cv-download:hover { background: #6093ba; border-color: #6093ba; }
+html[data-academic-theme="dark"] .research-tags span,
+html[data-academic-theme="dark"] .cv-card { color: #e3edf5; }
+html[data-academic-theme="dark"] .profile-photo { box-shadow: 0 .35rem 1.4rem rgba(0,0,0,.35); }
+html[data-academic-theme="dark"] #quarto-search-results,
+html[data-academic-theme="dark"] .aa-Panel {
+  color: #e1e9f1;
+  background: #202f3e;
+}
+
+html[data-academic-theme="dark"] footer.footer .nav-footer {
+  background: #192635;
+  color: #b7c8d7;
+  border-top: 1px solid #34495d;
+}
+html[data-academic-theme="dark"] footer.footer .nav-footer a { color: #c9dbe9; }

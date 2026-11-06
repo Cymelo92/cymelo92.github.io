@@ -67,6 +67,92 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<!-- Apply the visitor's preferred color scheme before the page paints. -->
+<script>
+(function () {
+  var choice = null;
+  try { choice = window.localStorage.getItem('cymelo92-theme'); } catch (_) {}
+  if (choice !== 'dark' && choice !== 'light') {
+    choice = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  document.documentElement.setAttribute('data-bs-theme', choice);
+  document.documentElement.setAttribute('data-academic-theme', choice);
+})();
+</script>
+<script>
+/* Academic site theme switch: accessible, persistent, and independent of Quarto's theme CSS. */
+(function () {
+  'use strict';
+  const STORAGE_KEY = 'cymelo92-theme';
+  const root = document.documentElement;
+
+  function currentTheme() {
+    return root.getAttribute('data-academic-theme') === 'dark' ? 'dark' : 'light';
+  }
+
+  function setTheme(value, persist) {
+    const theme = value === 'dark' ? 'dark' : 'light';
+    root.setAttribute('data-academic-theme', theme);
+    root.setAttribute('data-bs-theme', theme);
+    if (persist) {
+      try { window.localStorage.setItem(STORAGE_KEY, theme); } catch (_) {}
+    }
+    updateButton();
+  }
+
+  let button;
+  function updateButton() {
+    if (!button) return;
+    const dark = currentTheme() === 'dark';
+    const nextTheme = dark ? 'light' : 'dark';
+    button.setAttribute('aria-label', 'Switch to ' + nextTheme + ' mode');
+    button.setAttribute('title', 'Switch to ' + nextTheme + ' mode');
+    button.setAttribute('aria-pressed', String(dark));
+    button.querySelector('.academic-theme-label').textContent = dark ? 'Light mode' : 'Dark mode';
+    button.querySelector('i').className = dark ? 'bi bi-sun' : 'bi bi-moon-stars';
+  }
+
+  function init() {
+    const nav = document.querySelector('#navbarCollapse .navbar-nav.ms-auto');
+    if (!nav || document.getElementById('academic-theme-toggle')) return;
+    const item = document.createElement('li');
+    item.className = 'nav-item academic-theme-item';
+    button = document.createElement('button');
+    button.id = 'academic-theme-toggle';
+    button.type = 'button';
+    button.className = 'nav-link academic-theme-toggle';
+    const icon = document.createElement('i');
+    icon.className = 'bi bi-moon-stars';
+    icon.setAttribute('aria-hidden', 'true');
+    const label = document.createElement('span');
+    label.className = 'academic-theme-label';
+    button.append(icon, document.createTextNode(' '), label);
+    button.addEventListener('click', function () {
+      setTheme(currentTheme() === 'dark' ? 'light' : 'dark', true);
+    });
+    item.append(button);
+    nav.append(item);
+    updateButton();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init, { once: true });
+  } else {
+    init();
+  }
+
+  // Follow OS changes until the visitor makes an explicit choice.
+  if (window.matchMedia) {
+    const preference = window.matchMedia('(prefers-color-scheme: dark)');
+    const onChange = function (event) {
+      let hasOverride = false;
+      try { hasOverride = ['dark', 'light'].includes(window.localStorage.getItem(STORAGE_KEY)); } catch (_) {}
+      if (!hasOverride) setTheme(event.matches ? 'dark' : 'light', false);
+    };
+    if (preference.addEventListener) preference.addEventListener('change', onChange);
+  }
+})();
+</script>
 
 
 <link rel="stylesheet" href="/styles.css">
@@ -93,21 +179,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="/index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="/research.html">
- <span class="dropdown-text">Research interests</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="/projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="/projects.html">
- <span class="dropdown-text">Projects</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="/publications.html"> 
 <span class="menu-text">Publications</span></a>
@@ -127,10 +202,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">

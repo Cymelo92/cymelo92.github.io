@@ -6,7 +6,7 @@ page-layout: full
 
 ::: {.grid .hero}
 ::: {.g-col-12 .g-col-md-4}
-![](https://calclab.org/img/carlo-round.jpg){.profile-photo fig-alt="Portrait of Carlo Y. Meloni"}
+![](docs/images/carlo-round.jpg){.profile-photo fig-alt="Portrait of Carlo Y. Meloni"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -14,15 +14,12 @@ page-layout: full
 I am a postdoctoral researcher at the Chair of Multilingual Computational Linguistics at the University of Passau, where I work on the **ProduSemy** project.
 </div>
 
-My research investigates **linguistic evolution**, with a particular focus on syntax and on how hierarchical structures change over time. Methodologically, I combine comparative typology, Bayesian phylogenetic inference, and computational modelling to study cross-linguistic patterns and their historical development.
+My research investigates **linguistic evolution** through quantitative and comparative approaches. In my current postdoctoral role, I support colleagues with statistical analysis and modelling, and develop and standardize linguistic datasets. Methodologically, I combine comparative typology, Bayesian phylogenetic inference, and computational modelling to study cross-linguistic patterns and their historical development.
 
 I completed my PhD at the Institute for the Interdisciplinary Study of Language Evolution (ISLE), University of Zurich. My dissertation, *Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage*, examined the emergence and diachronic behaviour of clause-linkage structures.
 
-<div class="quick-links">
-[Research](research.qmd){.btn .btn-primary}
-[Publications](publications.qmd){.btn .btn-outline-primary}
-[Download CV](files/Carlo_Meloni_CV.pdf){.btn .btn-outline-primary}
-</div>
+<p class="hero-actions"><a class="btn btn-primary cv-download" href="files/Carlo_Meloni_CV.pdf" download="Carlo_Meloni_CV.pdf" type="application/pdf" aria-label="Download academic CV as PDF"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i> Download CV (PDF)</a></p>
+
 :::
 :::
 
@@ -39,22 +36,26 @@ I completed my PhD at the Institute for the Interdisciplinary Study of Language 
 <span>Quantitative linguistics</span>
 </div>
 
-## Current position
-
-**Postdoctoral Researcher, University of Passau**  
-Chair of Multilingual Computational Linguistics  
-ProduSemy project, 2025-2027
-
-## Links
-
-- [University of Passau profile](https://www.geku.uni-passau.de/mcl/team/carlo-meloni)
-- [CALC Lab](https://calclab.org)
-- [ORCID: 0009-0008-0383-7267](https://orcid.org/0009-0008-0383-7267)
-- [Google Scholar](https://scholar.google.com/citations?user=G9yLO24AAAAJ&hl=en)
-- [GitHub](https://github.com/Cymelo92)
-
 ## Contact
 
-**Email:** [carlo.meloni@uni-passau.de](mailto:carlo.meloni@uni-passau.de)  
-**Affiliation:** University of Passau, Chair of Multilingual Computational Linguistics  
-**Address:** Dr.-Hans-Kapfinger-Strasse 14d, 94032 Passau, Germany
+You can contact me using the form below.
+
+<form class="contact-form" action="https://formsubmit.co/carlo.meloni@uni-passau.de" method="POST" accept-charset="UTF-8">
+  <input type="hidden" name="_subject" value="New message from personal website">
+  <input type="hidden" name="_template" value="table">
+  <input type="text" name="_honey" class="contact-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <div class="contact-field">
+    <label for="contact-name">Name</label>
+    <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="120" required>
+  </div>
+  <div class="contact-field">
+    <label for="contact-email">Your email</label>
+    <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+  </div>
+  <div class="contact-field">
+    <label for="contact-message">Message</label>
+    <textarea id="contact-message" name="message" rows="6" maxlength="8000" required></textarea>
+  </div>
+  <button class="contact-submit" type="submit">Send message</button>
+  <p class="contact-note">Messages are processed by FormSubmit, a third-party form service. You may be asked to complete a spam check.</p>
+</form>

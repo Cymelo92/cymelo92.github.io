@@ -67,6 +67,92 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<!-- Apply the visitor's preferred color scheme before the page paints. -->
+<script>
+(function () {
+  var choice = null;
+  try { choice = window.localStorage.getItem('cymelo92-theme'); } catch (_) {}
+  if (choice !== 'dark' && choice !== 'light') {
+    choice = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  document.documentElement.setAttribute('data-bs-theme', choice);
+  document.documentElement.setAttribute('data-academic-theme', choice);
+})();
+</script>
+<script>
+/* Academic site theme switch: accessible, persistent, and independent of Quarto's theme CSS. */
+(function () {
+  'use strict';
+  const STORAGE_KEY = 'cymelo92-theme';
+  const root = document.documentElement;
+
+  function currentTheme() {
+    return root.getAttribute('data-academic-theme') === 'dark' ? 'dark' : 'light';
+  }
+
+  function setTheme(value, persist) {
+    const theme = value === 'dark' ? 'dark' : 'light';
+    root.setAttribute('data-academic-theme', theme);
+    root.setAttribute('data-bs-theme', theme);
+    if (persist) {
+      try { window.localStorage.setItem(STORAGE_KEY, theme); } catch (_) {}
+    }
+    updateButton();
+  }
+
+  let button;
+  function updateButton() {
+    if (!button) return;
+    const dark = currentTheme() === 'dark';
+    const nextTheme = dark ? 'light' : 'dark';
+    button.setAttribute('aria-label', 'Switch to ' + nextTheme + ' mode');
+    button.setAttribute('title', 'Switch to ' + nextTheme + ' mode');
+    button.setAttribute('aria-pressed', String(dark));
+    button.querySelector('.academic-theme-label').textContent = dark ? 'Light mode' : 'Dark mode';
+    button.querySelector('i').className = dark ? 'bi bi-sun' : 'bi bi-moon-stars';
+  }
+
+  function init() {
+    const nav = document.querySelector('#navbarCollapse .navbar-nav.ms-auto');
+    if (!nav || document.getElementById('academic-theme-toggle')) return;
+    const item = document.createElement('li');
+    item.className = 'nav-item academic-theme-item';
+    button = document.createElement('button');
+    button.id = 'academic-theme-toggle';
+    button.type = 'button';
+    button.className = 'nav-link academic-theme-toggle';
+    const icon = document.createElement('i');
+    icon.className = 'bi bi-moon-stars';
+    icon.setAttribute('aria-hidden', 'true');
+    const label = document.createElement('span');
+    label.className = 'academic-theme-label';
+    button.append(icon, document.createTextNode(' '), label);
+    button.addEventListener('click', function () {
+      setTheme(currentTheme() === 'dark' ? 'light' : 'dark', true);
+    });
+    item.append(button);
+    nav.append(item);
+    updateButton();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init, { once: true });
+  } else {
+    init();
+  }
+
+  // Follow OS changes until the visitor makes an explicit choice.
+  if (window.matchMedia) {
+    const preference = window.matchMedia('(prefers-color-scheme: dark)');
+    const onChange = function (event) {
+      let hasOverride = false;
+      try { hasOverride = ['dark', 'light'].includes(window.localStorage.getItem(STORAGE_KEY)); } catch (_) {}
+      if (!hasOverride) setTheme(event.matches ? 'dark' : 'light', false);
+    };
+    if (preference.addEventListener) preference.addEventListener('change', onChange);
+  }
+})();
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -93,21 +179,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="./research.html">
- <span class="dropdown-text">Research interests</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Projects</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./publications.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
@@ -127,10 +202,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -190,65 +261,99 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page lists publications and preprints from my current CV. For citation metadata and updates, see also <a href="https://scholar.google.com/citations?user=G9yLO24AAAAJ&amp;hl=en">Google Scholar</a> and <a href="https://orcid.org/0009-0008-0383-7267">ORCID</a>.</p>
+<!-- AUTO-GENERATED from references.bib; do not edit this file. -->
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section">2026</h2>
 <div class="pub-entry">
 <div class="pub-title">
 How communicatively optimal are exact numeral systems? Once more on lexicon size and morphosyntactic complexity
 </div>
-<p>Chundra Cathcart, Arne Rubehn, Katja Bocklage, Luca Ciucci, Kellen Parker van Dam, Alžběta Kučerová, Jekaterina Mažara, <strong>Carlo Y. Meloni</strong>, David Snee, and Johann-Mattis List.<br>
-<em>Proceedings of the Annual Meeting of the Cognitive Science Society</em>, 48.</p>
-<p><a href="https://escholarship.org/uc/item/4hz9j5f8">Publication</a></p>
+<p>
+Chundra Cathcart, Arne Rubehn, Katja Bocklage, Luca Ciucci, Kellen Parker van Dam, Alžběta Kučerová, Jekaterina Mažara, <strong>Carlo Y. Meloni</strong>, David Snee, and Johann-mattis List.<br> <em>Proceedings of the Annual Meeting of the Cognitive Science Society</em>, 48.
+</p>
+<p class="pub-links">
+<a class="pub-url" href="https://escholarship.org/uc/item/4hz9j5f8">Publication</a>
+</p>
 </div>
 <div class="pub-entry">
 <div class="pub-title">
 Naming variation across languages is shaped by shared histories, semantics and familiarity
 </div>
-<p>Alžběta Kučerová, <strong>Carlo Y. Meloni</strong>, and Johann-Mattis List. Preprint.</p>
-<p><a href="https://osf.io/preprints/psyarxiv/8tq2p_v1">Preprint</a> | <a href="https://doi.org/10.31234/osf.io/8tq2p_v1">DOI</a></p>
+<p>
+Alžběta Kučerová, <strong>Carlo Y. Meloni</strong>, and Johann-Mattis List.<br> <em>PsyArXiv</em>.
+</p>
+<p class="pub-links">
+<a class="pub-doi" href="https://doi.org/10.31234/osf.io/8tq2p_v1">Preprint DOI: 10.31234/osf.io/8tq2p_v1</a>
+</p>
+</div>
+<div class="pub-entry">
+<div class="pub-title">
+Besra: An Interactive Tool for Speech Annotation, Phonetic Analysis, and Computer-Assisted Fieldwork
+</div>
+<p>
+Kellen Parker van Dam, David Snee, Johann-Mattis List, Andre Goderich, Luca Ciucci, <strong>Carlo Y. Meloni</strong>, Keen Thaam, Nora Josefina Muheim, Katja Bocklage, and Arne Rubehn.<br> <em>Open Research Europe</em>, 6, 420.
+</p>
+<p class="pub-links">
+<a class="pub-doi" href="https://doi.org/10.12688/openreseurope.25173.1">DOI: 10.12688/openreseurope.25173.1</a>
+</p>
 </div>
 <div class="pub-entry">
 <div class="pub-title">
 A New Look at Avoidance Phenomena in Maltese Roots
 </div>
-<p><strong>Carlo Y. Meloni</strong> and Kellen Parker van Dam.<br>
-<em>Journal of Maltese Linguistics</em>. Forthcoming.</p>
+<p>
+<strong>Carlo Y. Meloni</strong> and Kellen Parker van Dam.<br> <em>Journal of Maltese Studies</em>. Forthcoming.
+</p>
+<p class="pub-links">
+<a class="pub-doi" href="https://doi.org/10.5281/zenodo.23450593">Manuscript DOI: 10.5281/zenodo.23450593</a>
+</p>
+</div>
+<div class="pub-entry">
+<div class="pub-title">
+No Evidence for a Universal Effect of Writing on Language Use or the Evolution of Syntax
+</div>
+<p>
+<strong>Carlo Y. Meloni</strong>, Jessica K. Ivani, Taras Zakharko, Guanghao You, Kellen Parker van Dam, Chundra A. Cathcart, and Balthasar Bickel.<br> <em>Proceedings of the National Academy of Sciences</em>. Forthcoming.
+</p>
+<p class="pub-doi-pending">
+DOI not yet available
+</p>
 </div>
 </section>
 <section id="section-1" class="level2">
 <h2 class="anchored" data-anchor-id="section-1">2025</h2>
 <div class="pub-entry">
 <div class="pub-title">
-A Phylogenetic Perspective on the Syntax-Semantics Interface: A Case Study in Clause Linkage Constructions
-</div>
-<p><strong>Carlo Y. Meloni</strong>, Chundra Cathcart, Erik J. Ringen, Jessica K. Ivani, and Balthasar Bickel.<br>
-<em>bioRxiv</em>.</p>
-<p><a href="https://www.biorxiv.org/content/early/2025/07/23/2025.07.19.665697">Preprint</a> | <a href="https://doi.org/10.1101/2025.07.19.665697">DOI</a></p>
-</div>
-<div class="pub-entry">
-<div class="pub-title">
 Linguistic evolution minimizes the amount of syntactic hierarchy in grammar
 </div>
-<p><strong>Carlo Y. Meloni</strong>, Chundra A. Cathcart, Jessica K. Ivani, Taras Zakharko, Erik J. Ringen, and Balthasar Bickel.<br>
-<em>bioRxiv</em>.</p>
-<p><a href="https://www.biorxiv.org/content/early/2025/07/23/2025.07.19.665693">Preprint</a> | <a href="https://doi.org/10.1101/2025.07.19.665693">DOI</a></p>
+<p>
+<strong>Carlo Y. Meloni</strong>, Chundra A. Cathcart, Jessica K. Ivani, Taras Zakharko, Erik J. Ringen, and Balthasar Bickel.<br> <em>bioRxiv</em>.
+</p>
+<p class="pub-links">
+<a class="pub-doi" href="https://doi.org/10.1101/2025.07.19.665693">Preprint DOI: 10.1101/2025.07.19.665693</a>
+</p>
 </div>
 <div class="pub-entry">
 <div class="pub-title">
-Writing does not Impact the Evolution of Syntax
+A Phylogenetic Perspective on the Syntax-Semantics Interface: A Case Study in Clause Linkage Constructions
 </div>
-<p><strong>Carlo Y. Meloni</strong>, Jessica K. Ivani, Taras Zakharko, Guanghao You, Chundra A. Cathcart, and Balthasar Bickel.<br>
-<em>bioRxiv</em>.</p>
-<p><a href="https://www.biorxiv.org/content/early/2025/07/23/2025.07.19.665695">Preprint</a> | <a href="https://doi.org/10.1101/2025.07.19.665695">DOI</a></p>
+<p>
+<strong>Carlo Y. Meloni</strong>, Chundra Cathcart, Erik J. Ringen, Jessica K. Ivani, and Balthasar Bickel.<br> <em>bioRxiv</em>.
+</p>
+<p class="pub-links">
+<a class="pub-doi" href="https://doi.org/10.1101/2025.07.19.665697">Preprint DOI: 10.1101/2025.07.19.665697</a>
+</p>
 </div>
 <div class="pub-entry">
 <div class="pub-title">
 Towards a Unified Conversion Table for Semitic Transcriptions and Transliterations
 </div>
-<p><strong>Carlo Y. Meloni</strong> and Johann-Mattis List.<br>
-<em>Computer-Assisted Language Comparison in Practice: Tutorials on Computational Approaches to the History and Diversity of Languages</em>, 8(2), 107-112.</p>
-<p><a href="https://ojs.uni-passau.de/index.php/calcip/article/view/270">Publication</a> | <a href="https://doi.org/10.15475/calcip.2025.2.6">DOI</a></p>
+<p>
+<strong>Carlo Y. Meloni</strong> and Johann-Mattis List.<br> <em>Computer-Assisted Language Comparison in Practice: Tutorials on Computational Approaches to the History and Diversity of Languages</em>, 8(2), 107–112.
+</p>
+<p class="pub-links">
+<a class="pub-doi" href="https://doi.org/10.15475/calcip.2025.2.6">DOI: 10.15475/calcip.2025.2.6</a>
+</p>
 </div>
 </section>
 <section id="section-2" class="level2">
@@ -257,9 +362,12 @@ Towards a Unified Conversion Table for Semitic Transcriptions and Transliteratio
 <div class="pub-title">
 Ab Antiquo: Neural Proto-language Reconstruction
 </div>
-<p><strong>Carlo Y. Meloni</strong>, Shauli Ravfogel, and Yoav Goldberg.<br>
-<em>Proceedings of NAACL-HLT 2021</em>, 4460-4473.</p>
-<p><a href="https://aclanthology.org/2021.naacl-main.353/">ACL Anthology</a> | <a href="https://doi.org/10.18653/v1/2021.naacl-main.353">DOI</a></p>
+<p>
+<strong>Carlo Y. Meloni</strong>, Shauli Ravfogel, and Yoav Goldberg.<br> <em>Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</em>, 4460–4473.
+</p>
+<p class="pub-links">
+<a class="pub-doi" href="https://doi.org/10.18653/v1/2021.naacl-main.353">DOI: 10.18653/v1/2021.naacl-main.353</a>
+</p>
 </div>
 
 

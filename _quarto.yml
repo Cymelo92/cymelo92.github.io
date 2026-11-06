@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  # Refresh the publications list whenever Quarto builds or previews the site.
+  pre-render: scripts/generate_publications.py
   resources:
     - files/**
     - images/**
@@ -14,12 +16,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Research
-        menu:
-          - href: research.qmd
-            text: Research interests
-          - href: projects.qmd
-            text: Projects
+      - href: projects.qmd
+        text: Projects
       - href: publications.qmd
         text: Publications
       - text: Academic
@@ -28,8 +26,6 @@ website:
             text: Talks & presentations
           - href: teaching.qmd
             text: Teaching & service
-      - href: cv.qmd
-        text: CV
     right:
       - icon: github
         href: https://github.com/Cymelo92
@@ -46,6 +42,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-in-header: includes/theme-head.html
     toc: true
     toc-depth: 3
     smooth-scroll: true
