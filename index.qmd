@@ -36,6 +36,10 @@ I completed my PhD at the Institute for the Interdisciplinary Study of Language 
 <span>Quantitative linguistics</span>
 </div>
 
+## Publications
+
+{{< include _publications_list.qmd >}}
+
 ## Contact
 
 You can contact me at [carlo.meloni@uni-passau.de](mailto:carlo.meloni@uni-passau.de).

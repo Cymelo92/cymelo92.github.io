@@ -60,7 +60,7 @@
     "href": "index.html#contact",
     "title": "Carlo Y. Meloni",
     "section": "Contact",
-    "text": "Contact\nYou can contact me using the form below.\n\n  \n\n&lt;label for=\"contact-name\"&gt;Name&lt;/label&gt;\n&lt;input id=\"contact-name\" name=\"name\" type=\"text\" autocomplete=\"name\" maxlength=\"120\" required&gt;\n\n\n&lt;label for=\"contact-email\"&gt;Your email&lt;/label&gt;\n&lt;input id=\"contact-email\" name=\"email\" type=\"email\" autocomplete=\"email\" maxlength=\"254\" required&gt;\n\n\n&lt;label for=\"contact-message\"&gt;Message&lt;/label&gt;\n&lt;textarea id=\"contact-message\" name=\"message\" rows=\"6\" maxlength=\"8000\" required&gt;&lt;/textarea&gt;\n\n\nSend message\n\n\nMessages are processed by FormSubmit, a third-party form service. You may be asked to complete a spam check."
+    "text": "Contact\nYou can contact me at carlo.meloni@uni-passau.de."
   },
   {
     "objectID": "teaching.html",
@@ -192,6 +192,34 @@
     "objectID": "publications.html#section-2",
     "href": "publications.html#section-2",
     "title": "Publications",
+    "section": "2021",
+    "text": "2021\n\n\nAb Antiquo: Neural Proto-language Reconstruction\n\n\nCarlo Y. Meloni, Shauli Ravfogel, and Yoav Goldberg. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 4460–4473.\n\n\nDOI: 10.18653/v1/2021.naacl-main.353"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Carlo Y. Meloni",
+    "section": "Publications",
+    "text": "Publications\n\n\n2026\n\n\nHow communicatively optimal are exact numeral systems? Once more on lexicon size and morphosyntactic complexity\n\n\nChundra Cathcart, Arne Rubehn, Katja Bocklage, Luca Ciucci, Kellen Parker van Dam, Alžběta Kučerová, Jekaterina Mažara, Carlo Y. Meloni, David Snee, and Johann-mattis List. Proceedings of the Annual Meeting of the Cognitive Science Society, 48.\n\n\nPublication\n\n\n\n\nNaming variation across languages is shaped by shared histories, semantics and familiarity\n\n\nAlžběta Kučerová, Carlo Y. Meloni, and Johann-Mattis List. PsyArXiv.\n\n\nPreprint DOI: 10.31234/osf.io/8tq2p_v1\n\n\n\n\nBesra: An Interactive Tool for Speech Annotation, Phonetic Analysis, and Computer-Assisted Fieldwork\n\n\nKellen Parker van Dam, David Snee, Johann-Mattis List, Andre Goderich, Luca Ciucci, Carlo Y. Meloni, Keen Thaam, Nora Josefina Muheim, Katja Bocklage, and Arne Rubehn. Open Research Europe, 6, 420.\n\n\nDOI: 10.12688/openreseurope.25173.1\n\n\n\n\nA New Look at Avoidance Phenomena in Maltese Roots\n\n\nCarlo Y. Meloni and Kellen Parker van Dam. Journal of Maltese Studies. Forthcoming.\n\n\nManuscript DOI: 10.5281/zenodo.23450593\n\n\n\n\nNo Evidence for a Universal Effect of Writing on Language Use or the Evolution of Syntax\n\n\nCarlo Y. Meloni, Jessica K. Ivani, Taras Zakharko, Guanghao You, Kellen Parker van Dam, Chundra A. Cathcart, and Balthasar Bickel. Proceedings of the National Academy of Sciences. Forthcoming.\n\n\nDOI not yet available\n\n\n\n\n2025\n\n\nLinguistic evolution minimizes the amount of syntactic hierarchy in grammar\n\n\nCarlo Y. Meloni, Chundra A. Cathcart, Jessica K. Ivani, Taras Zakharko, Erik J. Ringen, and Balthasar Bickel. bioRxiv.\n\n\nPreprint DOI: 10.1101/2025.07.19.665693\n\n\n\n\nA Phylogenetic Perspective on the Syntax-Semantics Interface: A Case Study in Clause Linkage Constructions\n\n\nCarlo Y. Meloni, Chundra Cathcart, Erik J. Ringen, Jessica K. Ivani, and Balthasar Bickel. bioRxiv.\n\n\nPreprint DOI: 10.1101/2025.07.19.665697\n\n\n\n\nTowards a Unified Conversion Table for Semitic Transcriptions and Transliterations\n\n\nCarlo Y. Meloni and Johann-Mattis List. Computer-Assisted Language Comparison in Practice: Tutorials on Computational Approaches to the History and Diversity of Languages, 8(2), 107–112.\n\n\nDOI: 10.15475/calcip.2025.2.6\n\n\n\n\n2021\n\n\nAb Antiquo: Neural Proto-language Reconstruction\n\n\nCarlo Y. Meloni, Shauli Ravfogel, and Yoav Goldberg. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 4460–4473.\n\n\nDOI: 10.18653/v1/2021.naacl-main.353"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Carlo Y. Meloni",
+    "section": "2026",
+    "text": "2026\n\n\nHow communicatively optimal are exact numeral systems? Once more on lexicon size and morphosyntactic complexity\n\n\nChundra Cathcart, Arne Rubehn, Katja Bocklage, Luca Ciucci, Kellen Parker van Dam, Alžběta Kučerová, Jekaterina Mažara, Carlo Y. Meloni, David Snee, and Johann-mattis List. Proceedings of the Annual Meeting of the Cognitive Science Society, 48.\n\n\nPublication\n\n\n\n\nNaming variation across languages is shaped by shared histories, semantics and familiarity\n\n\nAlžběta Kučerová, Carlo Y. Meloni, and Johann-Mattis List. PsyArXiv.\n\n\nPreprint DOI: 10.31234/osf.io/8tq2p_v1\n\n\n\n\nBesra: An Interactive Tool for Speech Annotation, Phonetic Analysis, and Computer-Assisted Fieldwork\n\n\nKellen Parker van Dam, David Snee, Johann-Mattis List, Andre Goderich, Luca Ciucci, Carlo Y. Meloni, Keen Thaam, Nora Josefina Muheim, Katja Bocklage, and Arne Rubehn. Open Research Europe, 6, 420.\n\n\nDOI: 10.12688/openreseurope.25173.1\n\n\n\n\nA New Look at Avoidance Phenomena in Maltese Roots\n\n\nCarlo Y. Meloni and Kellen Parker van Dam. Journal of Maltese Studies. Forthcoming.\n\n\nManuscript DOI: 10.5281/zenodo.23450593\n\n\n\n\nNo Evidence for a Universal Effect of Writing on Language Use or the Evolution of Syntax\n\n\nCarlo Y. Meloni, Jessica K. Ivani, Taras Zakharko, Guanghao You, Kellen Parker van Dam, Chundra A. Cathcart, and Balthasar Bickel. Proceedings of the National Academy of Sciences. Forthcoming.\n\n\nDOI not yet available"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "Carlo Y. Meloni",
+    "section": "2025",
+    "text": "2025\n\n\nLinguistic evolution minimizes the amount of syntactic hierarchy in grammar\n\n\nCarlo Y. Meloni, Chundra A. Cathcart, Jessica K. Ivani, Taras Zakharko, Erik J. Ringen, and Balthasar Bickel. bioRxiv.\n\n\nPreprint DOI: 10.1101/2025.07.19.665693\n\n\n\n\nA Phylogenetic Perspective on the Syntax-Semantics Interface: A Case Study in Clause Linkage Constructions\n\n\nCarlo Y. Meloni, Chundra Cathcart, Erik J. Ringen, Jessica K. Ivani, and Balthasar Bickel. bioRxiv.\n\n\nPreprint DOI: 10.1101/2025.07.19.665697\n\n\n\n\nTowards a Unified Conversion Table for Semitic Transcriptions and Transliterations\n\n\nCarlo Y. Meloni and Johann-Mattis List. Computer-Assisted Language Comparison in Practice: Tutorials on Computational Approaches to the History and Diversity of Languages, 8(2), 107–112.\n\n\nDOI: 10.15475/calcip.2025.2.6"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "Carlo Y. Meloni",
     "section": "2021",
     "text": "2021\n\n\nAb Antiquo: Neural Proto-language Reconstruction\n\n\nCarlo Y. Meloni, Shauli Ravfogel, and Yoav Goldberg. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 4460–4473.\n\n\nDOI: 10.18653/v1/2021.naacl-main.353"
   }
