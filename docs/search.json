@@ -42,53 +42,32 @@
     "text": "External profiles\n\nUniversity of Passau\nCALC Lab\nORCID\nGoogle Scholar\nGitHub"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Carlo Y. Meloni",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "I am a postdoctoral researcher at the Chair of Multilingual Computational Linguistics at the University of Passau, where I work on the ProduSemy project.\n\nMy research investigates linguistic evolution through quantitative and comparative approaches. In my current postdoctoral role, I support colleagues with statistical analysis and modelling, and develop and standardize linguistic datasets. Methodologically, I combine comparative typology, Bayesian phylogenetic inference, and computational modelling to study cross-linguistic patterns and their historical development.\nI completed my PhD at the Institute for the Interdisciplinary Study of Language Evolution (ISLE), University of Zurich. My dissertation, Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage, examined the emergence and diachronic behaviour of clause-linkage structures.\n\n Download CV (PDF)"
+    "text": "Productivity and Semantics in Language Evolution\n\nUniversity of Passau, 2025-2027\nI work as a postdoctoral researcher at the Chair of Multilingual Computational Linguistics on the ProduSemy project. My role focuses on supporting colleagues with statistical analysis and modelling, as well as creating and standardizing linguistic datasets for quantitative and comparative research.\nCALC Lab | University of Passau profile"
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Carlo Y. Meloni",
-    "section": "Research interests",
-    "text": "Research interests\n\nLanguage evolution Linguistic typology Historical linguistics Clause-linkage syntax Semitic languages Bayesian phylogenetics Computational linguistics Quantitative linguistics"
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Carlo Y. Meloni",
-    "section": "Contact",
-    "text": "Contact\nYou can contact me at carlo.meloni@uni-passau.de."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching & Academic Service",
+    "objectID": "projects.html#produsemy",
+    "href": "projects.html#produsemy",
+    "title": "Projects",
     "section": "",
-    "text": "Fieldwork Methods and Elicitation Techniques\nSpring 2024 - teaching assistant, MA level, Department of Comparative Language Science.\nMethods in Evolutionary Linguistics\nFall 2022 and Fall 2023 - teaching assistant, MA level, Department of Comparative Language Science.\n\n\n\nAdvanced Phonology\nSpring 2020 - teaching assistant, second-year BA pro-seminar, Linguistics Department.\nIntroduction to Linguistics\nFall 2019 - teaching assistant, first-year BA course, Linguistics Department."
+    "text": "Productivity and Semantics in Language Evolution\n\nUniversity of Passau, 2025-2027\nI work as a postdoctoral researcher at the Chair of Multilingual Computational Linguistics on the ProduSemy project. My role focuses on supporting colleagues with statistical analysis and modelling, as well as creating and standardizing linguistic datasets for quantitative and comparative research.\nCALC Lab | University of Passau profile"
   },
   {
-    "objectID": "teaching.html#teaching",
-    "href": "teaching.html#teaching",
-    "title": "Teaching & Academic Service",
-    "section": "",
-    "text": "Fieldwork Methods and Elicitation Techniques\nSpring 2024 - teaching assistant, MA level, Department of Comparative Language Science.\nMethods in Evolutionary Linguistics\nFall 2022 and Fall 2023 - teaching assistant, MA level, Department of Comparative Language Science.\n\n\n\nAdvanced Phonology\nSpring 2020 - teaching assistant, second-year BA pro-seminar, Linguistics Department.\nIntroduction to Linguistics\nFall 2019 - teaching assistant, first-year BA course, Linguistics Department."
+    "objectID": "projects.html#syntactic-hierarchy-in-linguistic-evolution",
+    "href": "projects.html#syntactic-hierarchy-in-linguistic-evolution",
+    "title": "Projects",
+    "section": "Syntactic hierarchy in linguistic evolution",
+    "text": "Syntactic hierarchy in linguistic evolution\n\n\nPhD research on clause linkage\n\nUniversity of Zurich, 2021-2025\nMy doctoral research investigated the emergence and diachronic behaviour of clause-linkage structures from a phylogenetic perspective. The dissertation is titled Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage.\nDissertation record"
   },
   {
-    "objectID": "teaching.html#academic-service",
-    "href": "teaching.html#academic-service",
-    "title": "Teaching & Academic Service",
-    "section": "Academic service",
-    "text": "Academic service\n\nReviewer\n\nLinguistic Typology\nScientific Reports\nJournal of Under-Resourced Languages"
-  },
-  {
-    "objectID": "teaching.html#selected-training",
-    "href": "teaching.html#selected-training",
-    "title": "Teaching & Academic Service",
-    "section": "Selected training",
-    "text": "Selected training\nMy methodological training includes Bayesian phylogenetic inference with BEAST2, statistical methods for linguistics and psychology, Gaussian processes and uncertainty quantification, machine learning, text analytics, reproducible research, and scientific computing on Linux/HPC systems."
+    "objectID": "projects.html#neural-proto-language-reconstruction",
+    "href": "projects.html#neural-proto-language-reconstruction",
+    "title": "Projects",
+    "section": "Neural proto-language reconstruction",
+    "text": "Neural proto-language reconstruction\n\n\nAb Antiquo\n\nWith Shauli Ravfogel and Yoav Goldberg, I worked on neural approaches to proto-language reconstruction. The resulting paper, Ab Antiquo: Neural Proto-language Reconstruction, appeared at NAACL 2021.\nACL Anthology"
   },
   {
     "objectID": "talks.html",
@@ -140,60 +119,46 @@
     "text": "2019\n\nAb Antiquo: Proto-language Reconstruction with RNNs. Poster at ACL 2019, with Shauli Ravfogel and Yoav Goldberg.\nRNNs for proto-words reconstruction. Paper at the 35th annual meeting of the Haiim B. Rosen Israeli Linguistic Society, with Shauli Ravfogel and Yoav Goldberg."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching & Academic Service",
     "section": "",
-    "text": "Productivity and Semantics in Language Evolution\n\nUniversity of Passau, 2025-2027\nI work as a postdoctoral researcher at the Chair of Multilingual Computational Linguistics on the ProduSemy project. My role focuses on supporting colleagues with statistical analysis and modelling, as well as creating and standardizing linguistic datasets for quantitative and comparative research.\nCALC Lab | University of Passau profile"
+    "text": "Fieldwork Methods and Elicitation Techniques\nSpring 2024 - teaching assistant, MA level, Department of Comparative Language Science.\nMethods in Evolutionary Linguistics\nFall 2022 and Fall 2023 - teaching assistant, MA level, Department of Comparative Language Science.\n\n\n\nAdvanced Phonology\nSpring 2020 - teaching assistant, second-year BA pro-seminar, Linguistics Department.\nIntroduction to Linguistics\nFall 2019 - teaching assistant, first-year BA course, Linguistics Department."
   },
   {
-    "objectID": "projects.html#produsemy",
-    "href": "projects.html#produsemy",
-    "title": "Projects",
+    "objectID": "teaching.html#teaching",
+    "href": "teaching.html#teaching",
+    "title": "Teaching & Academic Service",
     "section": "",
-    "text": "Productivity and Semantics in Language Evolution\n\nUniversity of Passau, 2025-2027\nI work as a postdoctoral researcher at the Chair of Multilingual Computational Linguistics on the ProduSemy project. My role focuses on supporting colleagues with statistical analysis and modelling, as well as creating and standardizing linguistic datasets for quantitative and comparative research.\nCALC Lab | University of Passau profile"
+    "text": "Fieldwork Methods and Elicitation Techniques\nSpring 2024 - teaching assistant, MA level, Department of Comparative Language Science.\nMethods in Evolutionary Linguistics\nFall 2022 and Fall 2023 - teaching assistant, MA level, Department of Comparative Language Science.\n\n\n\nAdvanced Phonology\nSpring 2020 - teaching assistant, second-year BA pro-seminar, Linguistics Department.\nIntroduction to Linguistics\nFall 2019 - teaching assistant, first-year BA course, Linguistics Department."
   },
   {
-    "objectID": "projects.html#syntactic-hierarchy-in-linguistic-evolution",
-    "href": "projects.html#syntactic-hierarchy-in-linguistic-evolution",
-    "title": "Projects",
-    "section": "Syntactic hierarchy in linguistic evolution",
-    "text": "Syntactic hierarchy in linguistic evolution\n\n\nPhD research on clause linkage\n\nUniversity of Zurich, 2021-2025\nMy doctoral research investigated the emergence and diachronic behaviour of clause-linkage structures from a phylogenetic perspective. The dissertation is titled Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage.\nDissertation record"
+    "objectID": "teaching.html#academic-service",
+    "href": "teaching.html#academic-service",
+    "title": "Teaching & Academic Service",
+    "section": "Academic service",
+    "text": "Academic service\n\nReviewer\n\nLinguistic Typology\nScientific Reports\nJournal of Under-Resourced Languages"
   },
   {
-    "objectID": "projects.html#neural-proto-language-reconstruction",
-    "href": "projects.html#neural-proto-language-reconstruction",
-    "title": "Projects",
-    "section": "Neural proto-language reconstruction",
-    "text": "Neural proto-language reconstruction\n\n\nAb Antiquo\n\nWith Shauli Ravfogel and Yoav Goldberg, I worked on neural approaches to proto-language reconstruction. The resulting paper, Ab Antiquo: Neural Proto-language Reconstruction, appeared at NAACL 2021.\nACL Anthology"
+    "objectID": "teaching.html#selected-training",
+    "href": "teaching.html#selected-training",
+    "title": "Teaching & Academic Service",
+    "section": "Selected training",
+    "text": "Selected training\nMy methodological training includes Bayesian phylogenetic inference with BEAST2, statistical methods for linguistics and psychology, Gaussian processes and uncertainty quantification, machine learning, text analytics, reproducible research, and scientific computing on Linux/HPC systems."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Carlo Y. Meloni",
     "section": "",
-    "text": "How communicatively optimal are exact numeral systems? Once more on lexicon size and morphosyntactic complexity\n\n\nChundra Cathcart, Arne Rubehn, Katja Bocklage, Luca Ciucci, Kellen Parker van Dam, Alžběta Kučerová, Jekaterina Mažara, Carlo Y. Meloni, David Snee, and Johann-mattis List. Proceedings of the Annual Meeting of the Cognitive Science Society, 48.\n\n\nPublication\n\n\n\n\nNaming variation across languages is shaped by shared histories, semantics and familiarity\n\n\nAlžběta Kučerová, Carlo Y. Meloni, and Johann-Mattis List. PsyArXiv.\n\n\nPreprint DOI: 10.31234/osf.io/8tq2p_v1\n\n\n\n\nBesra: An Interactive Tool for Speech Annotation, Phonetic Analysis, and Computer-Assisted Fieldwork\n\n\nKellen Parker van Dam, David Snee, Johann-Mattis List, Andre Goderich, Luca Ciucci, Carlo Y. Meloni, Keen Thaam, Nora Josefina Muheim, Katja Bocklage, and Arne Rubehn. Open Research Europe, 6, 420.\n\n\nDOI: 10.12688/openreseurope.25173.1\n\n\n\n\nA New Look at Avoidance Phenomena in Maltese Roots\n\n\nCarlo Y. Meloni and Kellen Parker van Dam. Journal of Maltese Studies. Forthcoming.\n\n\nManuscript DOI: 10.5281/zenodo.23450593\n\n\n\n\nNo Evidence for a Universal Effect of Writing on Language Use or the Evolution of Syntax\n\n\nCarlo Y. Meloni, Jessica K. Ivani, Taras Zakharko, Guanghao You, Kellen Parker van Dam, Chundra A. Cathcart, and Balthasar Bickel. Proceedings of the National Academy of Sciences. Forthcoming.\n\n\nDOI not yet available"
+    "text": "I am a postdoctoral researcher at the Chair of Multilingual Computational Linguistics at the University of Passau, where I work on the ProduSemy project.\n\nMy research investigates linguistic evolution through quantitative and comparative approaches. In my current postdoctoral role, I support colleagues with statistical analysis and modelling, and develop and standardize linguistic datasets. Methodologically, I combine comparative typology, Bayesian phylogenetic inference, and computational modelling to study cross-linguistic patterns and their historical development.\nI completed my PhD at the Institute for the Interdisciplinary Study of Language Evolution (ISLE), University of Zurich. My dissertation, Syntactic Hierarchy in Linguistic Evolution: A Phylogenetic View of Clause-Linkage, examined the emergence and diachronic behaviour of clause-linkage structures.\n\n Download CV (PDF)"
   },
   {
-    "objectID": "publications.html#section",
-    "href": "publications.html#section",
-    "title": "Publications",
-    "section": "",
-    "text": "How communicatively optimal are exact numeral systems? Once more on lexicon size and morphosyntactic complexity\n\n\nChundra Cathcart, Arne Rubehn, Katja Bocklage, Luca Ciucci, Kellen Parker van Dam, Alžběta Kučerová, Jekaterina Mažara, Carlo Y. Meloni, David Snee, and Johann-mattis List. Proceedings of the Annual Meeting of the Cognitive Science Society, 48.\n\n\nPublication\n\n\n\n\nNaming variation across languages is shaped by shared histories, semantics and familiarity\n\n\nAlžběta Kučerová, Carlo Y. Meloni, and Johann-Mattis List. PsyArXiv.\n\n\nPreprint DOI: 10.31234/osf.io/8tq2p_v1\n\n\n\n\nBesra: An Interactive Tool for Speech Annotation, Phonetic Analysis, and Computer-Assisted Fieldwork\n\n\nKellen Parker van Dam, David Snee, Johann-Mattis List, Andre Goderich, Luca Ciucci, Carlo Y. Meloni, Keen Thaam, Nora Josefina Muheim, Katja Bocklage, and Arne Rubehn. Open Research Europe, 6, 420.\n\n\nDOI: 10.12688/openreseurope.25173.1\n\n\n\n\nA New Look at Avoidance Phenomena in Maltese Roots\n\n\nCarlo Y. Meloni and Kellen Parker van Dam. Journal of Maltese Studies. Forthcoming.\n\n\nManuscript DOI: 10.5281/zenodo.23450593\n\n\n\n\nNo Evidence for a Universal Effect of Writing on Language Use or the Evolution of Syntax\n\n\nCarlo Y. Meloni, Jessica K. Ivani, Taras Zakharko, Guanghao You, Kellen Parker van Dam, Chundra A. Cathcart, and Balthasar Bickel. Proceedings of the National Academy of Sciences. Forthcoming.\n\n\nDOI not yet available"
-  },
-  {
-    "objectID": "publications.html#section-1",
-    "href": "publications.html#section-1",
-    "title": "Publications",
-    "section": "2025",
-    "text": "2025\n\n\nLinguistic evolution minimizes the amount of syntactic hierarchy in grammar\n\n\nCarlo Y. Meloni, Chundra A. Cathcart, Jessica K. Ivani, Taras Zakharko, Erik J. Ringen, and Balthasar Bickel. bioRxiv.\n\n\nPreprint DOI: 10.1101/2025.07.19.665693\n\n\n\n\nA Phylogenetic Perspective on the Syntax-Semantics Interface: A Case Study in Clause Linkage Constructions\n\n\nCarlo Y. Meloni, Chundra Cathcart, Erik J. Ringen, Jessica K. Ivani, and Balthasar Bickel. bioRxiv.\n\n\nPreprint DOI: 10.1101/2025.07.19.665697\n\n\n\n\nTowards a Unified Conversion Table for Semitic Transcriptions and Transliterations\n\n\nCarlo Y. Meloni and Johann-Mattis List. Computer-Assisted Language Comparison in Practice: Tutorials on Computational Approaches to the History and Diversity of Languages, 8(2), 107–112.\n\n\nDOI: 10.15475/calcip.2025.2.6"
-  },
-  {
-    "objectID": "publications.html#section-2",
-    "href": "publications.html#section-2",
-    "title": "Publications",
-    "section": "2021",
-    "text": "2021\n\n\nAb Antiquo: Neural Proto-language Reconstruction\n\n\nCarlo Y. Meloni, Shauli Ravfogel, and Yoav Goldberg. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 4460–4473.\n\n\nDOI: 10.18653/v1/2021.naacl-main.353"
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Carlo Y. Meloni",
+    "section": "Research interests",
+    "text": "Research interests\n\nLanguage evolution Linguistic typology Historical linguistics Clause-linkage syntax Semitic languages Bayesian phylogenetics Computational linguistics Quantitative linguistics"
   },
   {
     "objectID": "index.html#publications",
@@ -203,24 +168,10 @@
     "text": "Publications\n\n\n2026\n\n\nHow communicatively optimal are exact numeral systems? Once more on lexicon size and morphosyntactic complexity\n\n\nChundra Cathcart, Arne Rubehn, Katja Bocklage, Luca Ciucci, Kellen Parker van Dam, Alžběta Kučerová, Jekaterina Mažara, Carlo Y. Meloni, David Snee, and Johann-mattis List. Proceedings of the Annual Meeting of the Cognitive Science Society, 48.\n\n\nPublication\n\n\n\n\nNaming variation across languages is shaped by shared histories, semantics and familiarity\n\n\nAlžběta Kučerová, Carlo Y. Meloni, and Johann-Mattis List. PsyArXiv.\n\n\nPreprint DOI: 10.31234/osf.io/8tq2p_v1\n\n\n\n\nBesra: An Interactive Tool for Speech Annotation, Phonetic Analysis, and Computer-Assisted Fieldwork\n\n\nKellen Parker van Dam, David Snee, Johann-Mattis List, Andre Goderich, Luca Ciucci, Carlo Y. Meloni, Keen Thaam, Nora Josefina Muheim, Katja Bocklage, and Arne Rubehn. Open Research Europe, 6, 420.\n\n\nDOI: 10.12688/openreseurope.25173.1\n\n\n\n\nA New Look at Avoidance Phenomena in Maltese Roots\n\n\nCarlo Y. Meloni and Kellen Parker van Dam. Journal of Maltese Studies. Forthcoming.\n\n\nManuscript DOI: 10.5281/zenodo.23450593\n\n\n\n\nNo Evidence for a Universal Effect of Writing on Language Use or the Evolution of Syntax\n\n\nCarlo Y. Meloni, Jessica K. Ivani, Taras Zakharko, Guanghao You, Kellen Parker van Dam, Chundra A. Cathcart, and Balthasar Bickel. Proceedings of the National Academy of Sciences. Forthcoming.\n\n\nDOI not yet available\n\n\n\n\n2025\n\n\nLinguistic evolution minimizes the amount of syntactic hierarchy in grammar\n\n\nCarlo Y. Meloni, Chundra A. Cathcart, Jessica K. Ivani, Taras Zakharko, Erik J. Ringen, and Balthasar Bickel. bioRxiv.\n\n\nPreprint DOI: 10.1101/2025.07.19.665693\n\n\n\n\nA Phylogenetic Perspective on the Syntax-Semantics Interface: A Case Study in Clause Linkage Constructions\n\n\nCarlo Y. Meloni, Chundra Cathcart, Erik J. Ringen, Jessica K. Ivani, and Balthasar Bickel. bioRxiv.\n\n\nPreprint DOI: 10.1101/2025.07.19.665697\n\n\n\n\nTowards a Unified Conversion Table for Semitic Transcriptions and Transliterations\n\n\nCarlo Y. Meloni and Johann-Mattis List. Computer-Assisted Language Comparison in Practice: Tutorials on Computational Approaches to the History and Diversity of Languages, 8(2), 107–112.\n\n\nDOI: 10.15475/calcip.2025.2.6\n\n\n\n\n2021\n\n\nAb Antiquo: Neural Proto-language Reconstruction\n\n\nCarlo Y. Meloni, Shauli Ravfogel, and Yoav Goldberg. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 4460–4473.\n\n\nDOI: 10.18653/v1/2021.naacl-main.353"
   },
   {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
     "title": "Carlo Y. Meloni",
-    "section": "2026",
-    "text": "2026\n\n\nHow communicatively optimal are exact numeral systems? Once more on lexicon size and morphosyntactic complexity\n\n\nChundra Cathcart, Arne Rubehn, Katja Bocklage, Luca Ciucci, Kellen Parker van Dam, Alžběta Kučerová, Jekaterina Mažara, Carlo Y. Meloni, David Snee, and Johann-mattis List. Proceedings of the Annual Meeting of the Cognitive Science Society, 48.\n\n\nPublication\n\n\n\n\nNaming variation across languages is shaped by shared histories, semantics and familiarity\n\n\nAlžběta Kučerová, Carlo Y. Meloni, and Johann-Mattis List. PsyArXiv.\n\n\nPreprint DOI: 10.31234/osf.io/8tq2p_v1\n\n\n\n\nBesra: An Interactive Tool for Speech Annotation, Phonetic Analysis, and Computer-Assisted Fieldwork\n\n\nKellen Parker van Dam, David Snee, Johann-Mattis List, Andre Goderich, Luca Ciucci, Carlo Y. Meloni, Keen Thaam, Nora Josefina Muheim, Katja Bocklage, and Arne Rubehn. Open Research Europe, 6, 420.\n\n\nDOI: 10.12688/openreseurope.25173.1\n\n\n\n\nA New Look at Avoidance Phenomena in Maltese Roots\n\n\nCarlo Y. Meloni and Kellen Parker van Dam. Journal of Maltese Studies. Forthcoming.\n\n\nManuscript DOI: 10.5281/zenodo.23450593\n\n\n\n\nNo Evidence for a Universal Effect of Writing on Language Use or the Evolution of Syntax\n\n\nCarlo Y. Meloni, Jessica K. Ivani, Taras Zakharko, Guanghao You, Kellen Parker van Dam, Chundra A. Cathcart, and Balthasar Bickel. Proceedings of the National Academy of Sciences. Forthcoming.\n\n\nDOI not yet available"
-  },
-  {
-    "objectID": "index.html#section-1",
-    "href": "index.html#section-1",
-    "title": "Carlo Y. Meloni",
-    "section": "2025",
-    "text": "2025\n\n\nLinguistic evolution minimizes the amount of syntactic hierarchy in grammar\n\n\nCarlo Y. Meloni, Chundra A. Cathcart, Jessica K. Ivani, Taras Zakharko, Erik J. Ringen, and Balthasar Bickel. bioRxiv.\n\n\nPreprint DOI: 10.1101/2025.07.19.665693\n\n\n\n\nA Phylogenetic Perspective on the Syntax-Semantics Interface: A Case Study in Clause Linkage Constructions\n\n\nCarlo Y. Meloni, Chundra Cathcart, Erik J. Ringen, Jessica K. Ivani, and Balthasar Bickel. bioRxiv.\n\n\nPreprint DOI: 10.1101/2025.07.19.665697\n\n\n\n\nTowards a Unified Conversion Table for Semitic Transcriptions and Transliterations\n\n\nCarlo Y. Meloni and Johann-Mattis List. Computer-Assisted Language Comparison in Practice: Tutorials on Computational Approaches to the History and Diversity of Languages, 8(2), 107–112.\n\n\nDOI: 10.15475/calcip.2025.2.6"
-  },
-  {
-    "objectID": "index.html#section-2",
-    "href": "index.html#section-2",
-    "title": "Carlo Y. Meloni",
-    "section": "2021",
-    "text": "2021\n\n\nAb Antiquo: Neural Proto-language Reconstruction\n\n\nCarlo Y. Meloni, Shauli Ravfogel, and Yoav Goldberg. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 4460–4473.\n\n\nDOI: 10.18653/v1/2021.naacl-main.353"
+    "section": "Contact",
+    "text": "Contact\nYou can contact me at carlo.meloni@uni-passau.de."
   }
 ]
